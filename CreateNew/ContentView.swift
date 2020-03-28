@@ -10,11 +10,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-          Button(action: {
-                  print("Button Tapped")
-              }){
-                  Text("Button")
-              }
+        Button(action: {
+            print("Button Tapped")
+        }){
+            Text("Create a new")
+        }
     }
 }
 
